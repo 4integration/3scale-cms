@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'nokogiri', '~> 1.8', '>= 1.8.2'
   s.add_runtime_dependency 'rest-client', '~> 2.0.2', '>= 1.8.0'
-  s.add_runtime_dependency 'liquid', '~> 3.0', '>= 3.0.6'
+  s.add_runtime_dependency 'liquid', '>= 3.0.6', '< 5'
 
   s.required_ruby_version = '>= 2.0'
   s.require_paths = ['.']
